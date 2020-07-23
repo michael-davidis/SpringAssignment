@@ -1,0 +1,112 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+
+tr {
+    background-color: antiquewhite;
+}
+
+tr:nth-child(even) {
+    background-color: #458896;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    color: antiquewhite
+}
+
+.form-padding {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+
+.mainBody {
+    padding-top: 15px;
+}
+
+.actions {
+    display: inline-block
+}
+
+.button {
+    background-color: #9f5648;
+    color: antiquewhite;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    border: solid 1px black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+    color: #9f5648;
+    border: solid 1px black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.createButton {
+    margin-top: 30px;
+    text-align: center;
+    size: 12px;
+}
+
+.delete-button {
+    background-color: antiquewhite;
+    color: red;
+    border: solid 1px red;
+}
+
+.delete-button:hover {
+    background-color: red;
+    color: antiquewhite;
+    border: solid 1px red;
+}
+
+.header {
+    color: antiquewhite;
+    text-align: center
+}
+
+.opaque {
+    opacity: 0.9;
+}
+
+.td-alignment {
+    text-align: center
+}
+
+#pad-right-0-left-25 {
+    padding-right: 0;
+    padding-left: 25px
+}
+
+#update-button {
+    padding: 10px 22px;
+}
